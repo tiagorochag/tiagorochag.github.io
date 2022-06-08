@@ -105,9 +105,76 @@
             margin-left: 15px;
         }
 
-        img {
-            border: 0.5px solid #3a3a3a;   
+        .img {
+            border: 0.5px solid #3a3a3a;
+              
         }
+        .circular_image {
+            border-radius: 50%; 
+            width: 200px;
+            height: 200px;
+            overflow: hidden;
+  display:inline-block;
+  vertical-align:middle;
+        }
+        .img-circular{
+ width: 200px;
+ height: 200px;
+ background-size: cover;
+ display: block;
+ border-top-left-radius: 100px;
+ -webkit-border-top-left-radius: 100px;
+ -moz-border-top-left-radius: 100px;
+ border-bottom-right-radius: 100px;
+ -webkit-border-bottom-right-radius: 100px;
+ -moz-border-bottom-right-radius: 100px;
+}
+.img-circular2{
+ width: 200px;
+ height: 200px;
+ background-size: cover;
+ display: block;
+ border-radius: 100px;
+ -webkit-border-radius: 100px;
+ -moz-border-radius: 100px;
+}
+.circular--landscape { display: inline-block; position: relative; overflow: hidden; border-radius: 50%; } 
+
+.circular--landscape img { width: auto; height: 100%; margin-left: -50px; }
+
+.circular--portrait {
+  position: relative;
+  width: 20vw;
+  height: 20vw;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.circular--portrait img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.circle {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding: 100% 10% 0;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid gray;
+}
+
+.circle img {
+  margin-left: 1px;  
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
     </style>
 </head>
 
@@ -142,7 +209,11 @@
         <div class="row">
             <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2">
                 <a class="thumbnail">
-                    <img src="./img/tiago.png" alt="Tiago Rocha Gonçalves" style="width:100%" class="rounded">
+                    <!-- <img src="./img/tiago.png" alt="Tiago Rocha Gonçalves" style="width:100%" class="rounded"> -->
+                    <!-- <img class="circle" src="./img/tiago-white.jpg" alt="Tiago Rocha Gonçalves" style="width:100%"> -->
+                    <div class="circle">
+                        <img src="./img/tiago-white.jpg" alt="Tiago Rocha Gonçalves" style="width:100%">
+                    </div>
                 </a>
             </div>
             <div class="col-xs-6 col-sm-8 col-md-8 col-lg-10">
