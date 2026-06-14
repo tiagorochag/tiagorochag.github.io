@@ -82,7 +82,7 @@
       "endDate": "2022-01-01",
       "score": "",
       "courses": [
-        "Thesis: Robust control of platooning systems over imperfect wireless channels",
+        "Thesis title: Robust control of platooning systems over imperfect wireless channels",
         "Designed a reinforcement learning framework that improved platoon fuel efficiency by 7%.",
         "Developed a Simulink/Matlab-based platooning simulation environment with integrated ADAS (CC, ACC, CACC) and V2X (802.11p) communication systems."
       ]
