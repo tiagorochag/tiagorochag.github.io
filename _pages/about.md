@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://team.inria.fr/rits/'>RITS team</a>, Inria Paris, France.
+subtitle: <a href='https://astra-team.github.io/'>ASTRA team</a>, Valeo-Inria Paris, France.
 
 profile:
   align: right
