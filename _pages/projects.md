@@ -8,20 +8,7 @@ nav_order: 3
 display_categories: [current, past]
 horizontal: false
 ---
-Below are some of the projects I have worked on or am currently involved with.  
-<h6>Kindly email me with:</h6>
-<ul>
-    <li>Brief CV </li>
-    <li>Motivation letter (ranging from 1/2 to 1 page)
-        <ol>
-            <li>Specify the projects you are interested in or suggest a project within the RL field.</li>
-            <li>Mention your intended start date.</li>
-            <li>Describe any relevant experiences you might have.</li>
-        </ol>
-    </li>
-</ul>
-
-Please note that prior knowledge in RL is <span style="color: #00ab37;">NOT</span> a prerequisite.
+Below are some of the open-source projects I have contributed to or developed.
 
 <!-- pages/projects.md -->
 <div class="projects">
