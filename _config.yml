@@ -276,8 +276,8 @@ display_categories: ['blockquotes'] # these categories will be displayed on the 
 
 scholar:
 
-  last_name: [Gonçalves, R. Gonçalves, Rocha Gonçalves, Goncalves]
-  first_name: [Tiago, T., T. R., Tiago R., Tiago Rocha]
+  last_name: [Gonçalves, Gonçalves, Gonçalves, Gonçalves, Gonçalves, Goncalves, Goncalves, Goncalves, Goncalves, Goncalves]
+  first_name: [Tiago, T., T. R., Tiago R., Tiago Rocha, Tiago, T., T. R., Tiago R., Tiago Rocha]
 
   style: apa
   locale: en

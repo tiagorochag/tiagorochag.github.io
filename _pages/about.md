@@ -12,7 +12,7 @@ profile:
   #   <p>2 rue Simone Iff</p>
   #   <p>Paris, 75012, France</p>
 
-news: true
+news: false
 latest_posts: false
 selected_papers: true
 social: true
